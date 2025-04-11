@@ -1,0 +1,58 @@
+- make (project) folder
+    - (server) folder
+        - $ npm init -y
+        - $ npm i express mongoose cors
+            - if using bcrypt: $ npm i bcrypt
+            - if using jsonwebtoken: $ npm i jsonwebtoken
+                - make sure to make a .env file with a .gitignore and add the .env to the gitignore file
+            - if using cookies: $ npm i cookie-parser
+        - (config) folder
+        - (controllers) folder
+        - (models) folder
+        - (routes) folder
+        - server.js
+
+
+***** CREATE-REACT-APP IS NOW DEPRECATED
+
+🔧 How to Set Up a Vite React Frontend (for MERN):
+- In your MERN project directory:
+    # Step 1: Create your React frontend with Vite
+    $ npm create vite@latest my-app -- --template react
+    # Step 2: Install dependencies
+    $ cd client
+    $ npm install
+
+
+
+(These 2 commands to be done in 2 separate terminals)
+    - to run backend server, cd into (server) folder: $ nodemon server.js
+To run the frontend:
+    $ npm run dev
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    **** old client creation below
+    - cd.. back into (project) folder
+    - $ npx create-react-app client
+    - cd into (client) folder
+    - $ npm i axios react-router-dom
+    - inside (src) folder make folder called (components)
+    - (bootstrap optional) $ npm i react-bootstrap bootstrap
+
+(These 2 commands to be done in 2 separate terminals)
+- to run backend server, cd into (server) folder: $ nodemon server.js
+- to run react app, cd into (client) folder: $ npm run start    **** old way
